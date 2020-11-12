@@ -1,0 +1,140 @@
+*:focus {
+    outline: 0 !important; box-shadow: 0 0 0 0.2rem rgba(249,189,33,0.3); 
+  }
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+      display: block;
+  }
+  body {
+      line-height: 1;
+  }
+  ol, ul {
+      list-style: none;
+  }
+  blockquote, q {
+      quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content: '';
+      content: none;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  /* reset css */
+  a, a:hover, a:focus {
+    text-decoration: none;
+  }
+  html,body {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1.5rem;
+    font-family: arial, "Microsoft JhengHei", "微軟正黑體";
+    line-height: 1.5em;
+  }
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 5rem;
+    line-height: 94px;
+    border-bottom: 2px solid #000;
+    padding-top: 47px;
+    padding-bottom: 17px;
+  }
+  .img {
+    display: block;
+  }
+  .header .img {
+    padding: 48px 0 0;
+  }
+  /* header end*/
+  h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+  }
+  .title{padding-top: 72px;}
+  .title span {
+    font-size: 1.5rem;
+    color: #a00404;
+    padding-left: 16px;
+  }
+  ul{margin-top: 16px;}
+  li:not(:last-child) {
+    padding-bottom: 24px;
+  }
+  .skills, .footer{
+      background-color:#415165;
+      color: #fff;
+      padding: 34px 0 36px 0;
+      margin-top: 72px;
+  }
+  .skills h2, .footer h2{
+    font-size: 2rem;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+  }
+  .skills h2 span, .footer h2 span{
+    font-size: 1.5rem;
+    padding-left: 16px;
+  }
+  .skills .container {
+      width: 996px; 
+  }
+  .skills h2{text-align: center;}
+  .skills ul{
+    width: 240px;
+    margin: 40px auto 0px auto ;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4; 
+  }
+  .skills li:not(:last-child) {padding-bottom: 20px;}
+  .work ul{
+    margin-left: 24px;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4; 
+  }
+  .work li:not(:last-child) {padding-bottom: 16px;}
+  .work img{margin:8px 0 0 0;}
+  .work p{font-size: 1.250rem; margin-top: 8px;}
+  /* main end*/
+  .footer{text-align: center;}
+  .footer a{display: inline-block; color: #fff;}
+  .list-inline li {
+    display: inline-block;
+    padding-bottom: 0px;
+  }
+  .list-inline li:not(:last-child) {
+    margin-right: 24px;
+  }
+  /* footer end*/

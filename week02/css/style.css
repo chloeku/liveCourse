@@ -1,0 +1,140 @@
+*:focus {
+    outline: 0 !important;
+} 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{display: block;}
+a, a:hover, a:focus {
+    text-decoration: none;
+  }
+/* reset css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+html, body {
+    font-size: 1rem;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size:1.5rem;
+    line-height:42px;
+}
+h1{font-size: 5rem;line-height:94px;}
+h2{
+    font-size: 4rem;
+    line-height:75px;
+    padding: 64px 0 0px;
+    font-style: italic;
+    font-weight: bold;
+}
+.d-flex{display:flex;}
+.flex-wrap{flex-wrap:wrap;}
+.justify-content-center{justify-content: center;}
+.justify-content-between{justify-content: space-between;}
+.text-center{text-align: center;}
+.text-italic{font-style: italic;}
+.small{
+    font-size: 1.25rem;
+    line-height:30px;
+}
+.mx-auto{margin: 0 auto;}
+.containter {width: 1200px;margin: 0 auto;}
+.header{
+    background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true") center center no-repeat;
+    background-size: cover;
+    height:958px;  
+    border: 1px solid #707070;
+}
+.header-content{
+    color:#fff;
+    margin-top: 356px;
+    font-weight: bold;
+}
+.service{line-height:36px;margin-bottom: 48px;}
+.about{
+    font-weight: bold;
+    width: 450px;
+    margin:0 auto;
+    line-height:28px;
+}
+.about h2{margin-bottom: 40px;}
+.profile{margin: 24px 0;}
+.profile li:not(:last-child) {padding-bottom: 8px;}
+.experience{
+    border-top: 1px solid #000000;
+    padding-top: 32px;
+    margin-bottom: 56px;
+}
+.experience li:not(:last-child) {padding-bottom: 32px;}
+.experience li::before {
+    color: #891818;
+    content: "\f111";
+    font-family: FontAwesome;
+    font-style: normal;
+    display: inline-block;
+    width: 22px;
+    padding-right: 16px;
+}
+.brand{
+    background-color:#000000;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.brand h2{
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.brand .small{ margin-top: 32px; margin-bottom: 64px;}
+.brand li{padding-bottom: 40px;}
+.works{text-align: center; margin-bottom: 107px;}
+.works .small{ margin-top: 24px; margin-bottom: 56px;}
+.works li p{font-size:1.25rem;line-height: 42px;margin-top: 5px;margin-bottom: 53px;}
+.footer{
+    background-color:#000000;
+    color: #ffffff;
+    padding-bottom: 80px;
+}
+.footer h2{padding-bottom: 16px;}
+.footer a{
+    color: #ffffff;
+}
