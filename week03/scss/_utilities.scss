@@ -1,0 +1,35 @@
+//顏色、間距、 flex 通用
+.btn{display: inline-block;}
+.btn-primary{
+  color: $white;
+  background-color: $primary;
+  border-color: $primary;
+  padding: 16px;
+}
+.btn-primary:hover {
+    color: $white;
+    background-color: $primary-dark;
+    border-color: $primary-dark;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.d-none {
+  display: none;
+}
+.mx-auto{
+  margin: 0 auto;
+}
+/*Flex*/
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.d-inline-flex {
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+/*Flex end*/
+//顏色、間距、 flex 通用 end

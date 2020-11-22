@@ -1,0 +1,113 @@
+//全站通用
+/* 全域 border box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
+*:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(249, 189, 33, 0.7) !important;
+}
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: 1.5;
+  letter-spacing: 0.14;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+a:hover{
+  opacity:0.7;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding:0 15px;
+  @include pad() {max-width: 720px;}
+}
+.container-sm{
+  max-width: 730px;
+  margin: 0 auto;
+  @include pad() {max-width:450px;}
+}
+h1,.h1{
+  font-size:$h1-font-size;
+  font-weight: 700;
+}
+h2,.h2{
+  font-size:$h2-font-size;
+  font-weight: 700;
+}
+h3,.h3{
+  font-size:$h3-font-size;
+  font-weight: 700;
+}
+h4,.h4{
+  font-size:$h4-font-size;
+  font-weight: 700;
+}
+h5,.h5{
+  font-size:$h5-font-size;
+  font-weight: 700;
+}
+h6,.h6{
+  font-size:$h6-font-size;
+  font-weight: 700;
+}
+
+/* width*/
+@include mobile() {
+.w-sm-1{width: 8.333333%;}
+.w-sm-2{width: 16.66666%;}
+.w-sm-3{width: 25%;}
+.w-sm-4{width: 33.333333%;}
+.w-sm-5{width: 41.666666%;}
+.w-sm-6{width: 50%;}
+.w-sm-7{width: 58.333333%;}
+.w-sm-8{width: 66.666666%;}
+.w-sm-9{width: 75%;}
+.w-sm-10{width: 83.333333%;}
+.w-sm-11{width: 91.666666%;}
+.w-sm-12{width: 100%;}
+}
+@include pad() {
+.w-md-1{width: 8.333333%;}
+.w-md-2{width: 16.66666%;}
+.w-md-3{width: 25%;}
+.w-md-4{width: 33.333333%;}
+.w-md-5{width: 41.666666%;}
+.w-md-6{width: 50%;}
+.w-md-7{width: 58.333333%;}
+.w-md-8{width: 66.666666%;}
+.w-md-9{width: 75%;}
+.w-md-10{width: 83.333333%;}
+.w-md-11{width: 91.666666%;}
+.w-md-12{width: 100%;}
+}
+@include desktop() {
+.w-lg-1{width: 8.333333%;}
+.w-lg-2{width: 16.66666%;}
+.w-lg-3{width: 25%;}
+.w-lg-4{width: 33.333333%;}
+.w-lg-5{width: 41.666666%;}
+.w-lg-6{width: 50%;}
+.w-lg-7{width: 58.333333%;}
+.w-lg-8{width: 66.666666%;}
+.w-lg-9{width: 75%;}
+.w-lg-10{width: 83.333333%;}
+.w-lg-11{width: 91.666666%;}
+.w-lg-12{width: 100%;}
+}
+/*width end*/
+//全站通用 end

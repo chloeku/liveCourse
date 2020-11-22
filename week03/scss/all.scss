@@ -1,3 +1,14 @@
-@import "variable"; 
-@import "reset";
-@import "layout";
+@import "variable";//變數
+@import "mixin";
+@import "reset";//css reset
+@import "base";//全站通用
+@import "utilities";//顏色、間距、 flex 通用
+// module
+
+// layout
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+// page
+@import "page/index";
+@import "page/faq";
