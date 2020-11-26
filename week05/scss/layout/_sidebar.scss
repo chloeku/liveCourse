@@ -1,0 +1,42 @@
+.sidebar {
+  position: sticky;
+  z-index: 1000;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 296px;
+  .nav-link {
+    font-weight: 500;
+    color: #333;
+    border-left: 4px solid $primarylight;
+    padding: 3px 32px;
+    margin-bottom: 22px;
+  }
+  .nav-link:hover {
+    background-color: #cdddcd;
+    color: #333;
+    border-left: 4px solid  #cdddcd;
+  }
+  .nav-link.active, .nav-link.active:hover{
+    background-color: $primarylight;
+    color: $primary;
+    border-left: 4px solid $primary;
+  }
+  &-footer{
+    padding: 32px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+.logo .img-fluid {
+  padding: 32px;
+}
+.media-img {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
