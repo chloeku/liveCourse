@@ -1,0 +1,50 @@
+//全站通用
+/* 全域 border box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(42, 131, 86, 0.25);
+}
+body {
+  font-size: $font-size-base;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.logo{
+  width: 128px;
+}
+.font-size-sm{font-size:$font-size-sm!important;}
+.font-size-md{font-size:$font-size-base!important;}
+.font-size-lg{font-size:$font-size-lg!important;}
+.mr-sm{margin-right:10px;}
+.mb-ss{margin-bottom:10px;}
+.mb-sm{margin-bottom:20px;}
+.mb-md{margin-bottom:30px;}
+.mb-lg{margin-bottom:40px;}
+.mb-xl{margin-bottom:60px;}
+.mb-xxl{margin-bottom:80px;}
+.mt-md{margin-top:36px;}
+.mt-lg{margin-top:40px;}
+.mt-xxl{margin-top:302px;}
+.py-sm{padding-top:25px!important; padding-bottom:25px!important;}
+.py-md{padding-top:30px!important; padding-bottom:30px!important;}
+.pt-lg{padding-top:40px;}
+.bg-none{background-color:rgba(0,0,0,0)!important;}
+.img-cover {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}

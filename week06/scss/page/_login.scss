@@ -1,0 +1,6 @@
+.img-cover.img-login {
+    height: 730px;
+    @include media-breakpoint-down(md) {
+      height: 200px;
+    }
+} 

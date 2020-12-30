@@ -1,0 +1,50 @@
+@include media-breakpoint-up(xl) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+}
+.nav-item:not(:last-child) {
+  margin-right: 32px;
+}
+.nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  padding-right: 0rem;
+  padding-left: 0rem;
+  font-size: $font-size-lg;
+}
+@include media-breakpoint-down(lg) {
+  .nav-item:not(:last-child) {
+    margin-right: 0px;
+  }
+  .header.container {
+      padding-right: 0px;
+      padding-left: 0px;
+      max-width: 768px;
+    }
+}
+@include media-breakpoint-down(md) {
+  .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    top: 51px;
+    z-index: 2000;
+  }
+  .menu {
+    a {
+      color: $white !important;
+      background-color: $graydark;
+      padding: 16px 0;
+      border-bottom: 1px solid $white;
+    }
+  }
+}
+.btn-shoppingCart {
+  position: relative;
+}
+.badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: $small-font-size;
+}

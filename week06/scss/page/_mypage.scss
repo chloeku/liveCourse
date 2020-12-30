@@ -1,0 +1,15 @@
+.subNav li{
+    padding: 0px;
+    margin-bottom: 24px;
+}
+.subNav a{
+    font-size:$font-size-base;
+    color: $secondary;
+    border-bottom: 2px solid $white; 
+    padding: 0px;
+    margin-bottom: 24px;
+}
+.subNav a:hover, .subNav a.active{
+    color: $secondary;
+    border-bottom: 2px solid $primary; 
+}

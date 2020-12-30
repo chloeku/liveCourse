@@ -1,0 +1,25 @@
+.mold main{
+  margin-top: 80px;
+  @include media-breakpoint-down(md) {
+    margin-top: 42px;
+  }
+}
+.list {
+  h2 {
+    font-size: $h4-font-size;
+    @include media-breakpoint-down(md) {
+      font-size: $font-size-lg;
+    }
+  }
+}
+
+.btn-toolbar {
+  .btn-link {
+    color: $black;
+  }
+  .btn-link.active {
+    color: $primary;
+    text-decoration: underline;
+  }
+}
+

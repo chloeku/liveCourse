@@ -1,0 +1,10 @@
+@include media-breakpoint-up(md) {
+    .absolute-right{
+        position: absolute;
+        right: 0;
+    }
+}
+
+.pic-h460 {
+    height: 460px;
+}

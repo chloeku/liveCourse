@@ -1,0 +1,18 @@
+.footer {
+  color: $white;
+  padding: 20px 0 22px 0;
+  a {
+    color: $white;
+    font-size: $font-size-lg;
+  }
+  .list-inline-item:not(:last-child) {
+    margin-right: 36px;
+  }
+  p{
+    font-size:$font-size-sm;
+    margin-bottom: 0;
+    @include media-breakpoint-down(md) {
+      font-size: $small-font-size;
+    }
+  }
+}
