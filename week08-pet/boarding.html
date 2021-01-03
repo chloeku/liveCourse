@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>寵物寄宿｜PETPET</title>
+  <!-- icon -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--aos+animate -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+  <header class="header fixed-top bg-white" id="header">
+
+  </header>
+  <main class="main">
+    <section class="homestay-banner mb-xxxl">
+      <div class="container p-0">
+        <div class="row no-gutters d-flex flex-row flex-sm-row-reverse">
+          <div class="col-12 col-sm-7 col-lg-8"><img src="images/homestay-1.png"
+              class="img-cover homestay mx-auto mb-ss mb-sm-0"></div>
+          <div class="col-12 col-sm-5 col-lg-4 mx-auto mx-lg-0 px-3 pl-lg-3">
+            <h2 class="text-primary text-center text-sm-left">寵物寄宿</h2>
+            <h3 class="h3 text-primary text-center text-sm-left">給您的毛孩最舒適的環境</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-warning mb-xxxl pt-3">
+      <form class="container">
+        <div class="form-row d-flex align-items-center">
+          <div class="col-auto">
+            <label class="mr-sm-2 mb-3 sr-only" for="variety">品種</label>
+            <select class="custom-select mr-sm-2 mb-3" id="variety">
+              <option>品種</option>
+              <option value="貓" selected>貓</option>
+              <option value="狗">狗</option>
+              <option value="兔">兔</option>
+            </select>
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2">
+            <label class="mr-sm-2 mb-3 sr-only" for="variety">縣市</label>
+            <select class="custom-select mr-sm-2 mb-3" id="variety">
+              <option>縣市</option>
+              <option value="高雄市" selected>高雄市</option>
+              <option value="台北市">台北市</option>
+              <option value="台中市">台中市</option>
+            </select>
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2">
+            <label class="mr-sm-2 mb-3 sr-only" for="variety">起</label>
+            <select class="custom-select mr-sm-2 mb-3" id="variety">
+              <option selected>起</option>
+              <option value="2020-11-20" selected>2020-11-20</option>
+              <option value="2020-11-21">2020-11-21</option>
+              <option value="2020-11-22">2020-11-22</option>
+            </select>
+          </div>
+          <div class="col-auto d-none d-sm-block"><label class="mb-3">至</label></div>
+          <div class="col-6 col-sm-3 col-lg-2">
+            <label class="mr-sm-2 mb-3 sr-only" for="variety">迄</label>
+            <select class="custom-select mr-sm-2 mb-3" id="variety">
+              <option selected>迄</option>
+              <option value="2020-11-21" selected>2020-11-21</option>
+              <option value="2020-11-22">2020-11-22</option>
+              <option value="2020-11-23">2020-11-23</option>
+            </select>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section class="mb-xxxl">
+      <div class="container">
+        <h2 class="text-primary mb-1">本月熱門寄宿</h2>
+      </div>
+      <div class="swiper-container container" data-aos="animate__fadeInUp">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card shadow-sm">
+              <div class="card-img">
+                <img class="img-cover h-112" src="images/index-2.jpeg" alt="pet">
+              </div>
+              <div class="card-person">
+                <img src="images/person-1.png" alt="person" class="img-cover">
+              </div>
+              <div class="card-body text-primary text-center">
+                <h4 class="font-size-lg">Jamie</h4>
+                <p>寄宿、美容、寵物行為訓練</p>
+                <button href="" class="btn btn-orange px-5 mb-md" type="button">預約</button>
+                <div class="row">
+                  <div class="col-6">
+                    <p>獲得評價</p>
+                    <p><span class="h3">198</span>則</p>
+                  </div>
+                  <div class="col-6">
+                    <p>已完成訂單</p>
+                    <p><span class="h3">580</span>件</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card shadow-sm position-relative">
+              <div class="card-img">
+                <img class="img-cover h-112" src="images/index-3.jpeg" alt="pet">
+              </div>
+              <div class="card-person">
+                <img src="images/person-2.png" alt="person" class="img-cover">
+              </div>
+              <div class="card-body text-primary text-center">
+                <h4 class="font-size-lg">Eric</h4>
+                <p>寄宿、美容</p>
+                <button href="" class="btn btn-orange px-5 mb-md" type="button">預約</button>
+                <div class="row">
+                  <div class="col-6">
+                    <p>獲得評價</p>
+                    <p><span class="h3">76</span>則</p>
+                  </div>
+                  <div class="col-6">
+                    <p>已完成訂單</p>
+                    <p><span class="h3">208</span>件</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card shadow-sm position-relative">
+              <div class="card-img">
+                <img class="img-cover h-112" src="images/index-4.jpeg" alt="pet">
+              </div>
+              <div class="card-person">
+                <img src="images/person-3.png" alt="person" class="img-cover">
+              </div>
+              <div class="card-body text-primary text-center">
+                <h4 class="font-size-lg">Yvonne</h4>
+                <p>美容、寵物行為訓練</p>
+                <button href="" class="btn btn-orange px-5 mb-md" type="button">預約</button>
+                <div class="row">
+                  <div class="col-6">
+                    <p>獲得評價</p>
+                    <p><span class="h3">52</span>則</p>
+                  </div>
+                  <div class="col-6">
+                    <p>已完成訂單</p>
+                    <p><span class="h3">196</span>件</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card shadow-sm">
+              <div class="card-img">
+                <img class="img-cover h-112" src="images/index-5.jpeg" alt="pet">
+              </div>
+              <div class="card-person">
+                <img src="images/person-4.png" alt="person" class="img-cover">
+              </div>
+              <div class="card-body text-primary text-center">
+                <h4 class="font-size-lg">Yvonne</h4>
+                <p>美容、寵物行為訓練</p>
+                <button href="" class="btn btn-orange px-5 mb-md" type="button">預約</button>
+                <div class="row">
+                  <div class="col-6">
+                    <p>獲得評價</p>
+                    <p><span class="h3">52</span>則</p>
+                  </div>
+                  <div class="col-6">
+                    <p>已完成訂單</p>
+                    <p><span class="h3">196</span>件</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card shadow-sm position-relative">
+              <div class="card-img">
+                <img class="img-cover h-112" src="images/index-8.jpeg" alt="pet">
+              </div>
+              <div class="card-person">
+                <img src="images/person-7.png" alt="person" class="img-cover">
+              </div>
+              <div class="card-body text-primary text-center">
+                <h4 class="font-size-lg">Yvonne</h4>
+                <p>美容、寵物行為訓練</p>
+                <button href="" class="btn btn-orange px-5 mb-md" type="button">預約</button>
+                <div class="row">
+                  <div class="col-6">
+                    <p>獲得評價</p>
+                    <p><span class="h3">52</span>則</p>
+                  </div>
+                  <div class="col-6">
+                    <p>已完成訂單</p>
+                    <p><span class="h3">196</span>件</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card shadow-sm position-relative">
+              <div class="card-img">
+                <img class="img-cover h-112" src="images/index-6.jpeg" alt="pet">
+              </div>
+              <div class="card-person">
+                <img src="images/person-5.png" alt="person" class="img-cover">
+              </div>
+              <div class="card-body text-primary text-center">
+                <h4 class="font-size-lg">Yvonne</h4>
+                <p>美容、寵物行為訓練</p>
+                <button href="" class="btn btn-orange px-5 mb-md" type="button">預約</button>
+                <div class="row">
+                  <div class="col-6">
+                    <p>獲得評價</p>
+                    <p><span class="h3">52</span>則</p>
+                  </div>
+                  <div class="col-6">
+                    <p>已完成訂單</p>
+                    <p><span class="h3">196</span>件</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <section class="container mb-xxxl">
+      <div class="row d-flex align-items-stretch"  data-aos="animate__fadeInUp">
+        <div class="col-6 col-sm-4 col-lg-3 mb-lx">
+          <div class="card h-100 border-0 shadow">
+            <img src="./images/homestay-2.jpeg" class="card-img-top img-cover img-top" alt="...">
+            <div class="card-body py-2">
+              <ul class="list-unstyled text-primary">
+                <li class="card-title h6 mb-1">寵屋屋</li>
+                <li class="text-warning"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i
+                    class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star"></i></li>
+                <li>寄宿、美容洗澡、到府保姆</li>
+              </ul>
+            </div>
+            <div class="btn-group rounded-bottom" role="group">
+              <a href="#" role="button" class="btn btn-link py-sm text-primary">聯繫</a>
+              <a href="#" role="button" class="btn btn-link py-sm text-secondary">預約</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3 mb-lx">
+          <div class="card h-100 border-0 shadow">
+            <img src="./images/homestay-3.jpeg" class="card-img-top img-cover img-top" alt="...">
+            <div class="card-body py-2">
+              <ul class="list-unstyled text-primary">
+                <li class="card-title h6 mb-1">毛孩好家</li>
+                <li class="text-warning"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i
+                    class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star"></i></li>
+                <li>寄宿、美容洗澡、到府保姆</li>
+              </ul>
+            </div>
+            <div class="btn-group rounded-bottom" role="group">
+              <a href="#" role="button" class="btn btn-link py-sm text-primary">聯繫</a>
+              <a href="#" role="button" class="btn btn-link py-sm text-secondary">預約</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3 mb-lx">
+          <div class="card h-100 border-0 shadow">
+            <img src="./images/homestay-4.jpeg" class="card-img-top img-cover img-top" alt="...">
+            <div class="card-body py-2">
+              <ul class="list-unstyled text-primary">
+                <li class="card-title h6 mb-1">妖貓X僕SS</li>
+                <li class="text-warning"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i
+                    class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star"></i></li>
+                <li>寄宿、美容洗澡</li>
+              </ul>
+            </div>
+            <div class="btn-group rounded-bottom" role="group">
+              <a href="#" role="button" class="btn btn-link py-sm text-primary">聯繫</a>
+              <a href="#" role="button" class="btn btn-link py-sm text-secondary">預約</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3 mb-lx">
+          <div class="card h-100 border-0 shadow">
+            <img src="./images/homestay-5.jpeg" class="card-img-top img-cover img-top" alt="...">
+            <div class="card-body py-2">
+              <ul class="list-unstyled text-primary">
+                <li class="card-title h6 mb-1">貓是主我是僕</li>
+                <li class="text-warning"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i
+                    class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star"></i></li>
+                <li>寄宿、美容洗澡、到府保姆</li>
+              </ul>
+            </div>
+            <div class="btn-group rounded-bottom" role="group">
+              <a href="#" role="button" class="btn btn-link py-sm text-primary">聯繫</a>
+              <a href="#" role="button" class="btn btn-link py-sm text-secondary">預約</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3 mb-lx">
+          <div class="card h-100 border-0 shadow">
+            <img src="./images/homestay-6.jpeg" class="card-img-top img-cover img-top" alt="...">
+            <div class="card-body py-2">
+              <ul class="list-unstyled text-primary">
+                <li class="card-title h6 mb-1">汪汪隊</li>
+                <li class="text-warning"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i
+                    class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star"></i></li>
+                <li>寄宿、美容洗澡、到府保姆</li>
+              </ul>
+            </div>
+            <div class="btn-group rounded-bottom" role="group">
+              <a href="#" role="button" class="btn btn-link py-sm text-primary">聯繫</a>
+              <a href="#" role="button" class="btn btn-link py-sm text-secondary">預約</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3 mb-lx">
+          <div class="card h-100 border-0 shadow">
+            <img src="./images/homestay-7.jpeg" class="card-img-top img-cover img-top" alt="...">
+            <div class="card-body py-2">
+              <ul class="list-unstyled text-primary">
+                <li class="card-title h6 mb-1">卯咪</li>
+                <li class="text-warning"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i
+                    class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star"></i></li>
+                <li>寄宿、寵物行為訓練</li>
+              </ul>
+            </div>
+            <div class="btn-group rounded-bottom" role="group">
+              <a href="#" role="button" class="btn btn-link py-sm text-primary">聯繫</a>
+              <a href="#" role="button" class="btn btn-link py-sm text-secondary">預約</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3 mb-lx">
+          <div class="card h-100 border-0 shadow">
+            <img src="./images/index-2.jpeg" class="card-img-top img-cover img-top" alt="...">
+            <div class="card-body py-2">
+              <ul class="list-unstyled text-primary">
+                <li class="card-title h6 mb-1">貓狗大戰</li>
+                <li class="text-warning"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i
+                    class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star"></i></li>
+                <li>寄宿、美容洗澡、到府保姆</li>
+              </ul>
+            </div>
+            <div class="btn-group rounded-bottom" role="group">
+              <a href="#" role="button" class="btn btn-link py-sm text-primary">聯繫</a>
+              <a href="#" role="button" class="btn btn-link py-sm text-secondary">預約</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-3 mb-lx">
+          <div class="card h-100 border-0 shadow">
+            <img src="./images/homestay-8.jpeg" class="card-img-top img-cover img-top" alt="...">
+            <div class="card-body py-2">
+              <ul class="list-unstyled text-primary">
+                <li class="card-title h6 mb-1">萌寵底家</li>
+                <li class="text-warning"><i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i
+                    class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i class="fas fa-star"></i></li>
+                <li>寄宿、到府保姆</li>
+              </ul>
+            </div>
+            <div class="btn-group rounded-bottom" role="group">
+              <a href="#" role="button" class="btn btn-link py-sm text-primary">聯繫</a>
+              <a href="#" role="button" class="btn btn-link py-sm text-secondary">預約</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-end pr-3">
+        <nav aria-label="Page navigation ">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer" id="footer">
+
+  </footer>
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      breakpoints: {
+        1200: {
+          slidesPerView: 3,
+        },
+        992: {
+          slidesPerView: 3,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        576: {
+          slidesPerView: 1,
+        }
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      // And if we need scrollbar
+      // scrollbar: {
+      //   el: '.swiper-scrollbar',
+      // },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: false,
+      },
+    });
+
+  </script>
+  <script src="js/all.js"></script>
+</body>
+
+</html>

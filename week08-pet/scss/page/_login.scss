@@ -1,0 +1,13 @@
+.bd-sidebar {
+  position: sticky;
+  z-index: 1000;
+  height: calc(100vh - 55px);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.img-login{
+  height: calc(100vh - 55px);
+}

@@ -1,0 +1,33 @@
+.help-box {
+  margin-bottom: 60px;
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 8px;
+  }
+  h2 {
+    font-size: $h1-font-size;
+    @include media-breakpoint-down(sm) {
+      font-size: $h4-font-size;
+    }
+  }
+  h3 {
+    font-size: $font-size-lg;
+    @include media-breakpoint-down(sm) {
+      font-size: $font-size-base;
+    }
+  }
+}
+.footer {
+  nav {
+    margin-bottom: 84px;
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 0px;
+    }
+
+    .btn-top {
+      margin-bottom: 24px;
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}

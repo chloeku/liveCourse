@@ -1,0 +1,11 @@
+@import "bootstrap/bootstrap";
+@import "base"; // 全站通用
+@import "utilities"; //顏色、間距、 flex 通用
+// layout
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+// page
+@import "page/index";
+@import "page/boarding";
+@import "page/login";

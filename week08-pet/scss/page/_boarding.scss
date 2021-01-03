@@ -1,0 +1,28 @@
+.img-cover.homestay{
+    height:315px ;
+}
+.homestay-banner{
+    h2{
+      font-size: $h1-font-size;
+    }
+    h3{
+      font-size: $h4-font-size;
+    }
+    @include media-breakpoint-down(sm) {
+      h2{
+        font-size: $h3-font-size;
+      }
+      h3{
+        font-size: $h5-font-size;
+      }
+    }
+}
+.homestay-banner.mb-xxxl{
+  @include media-breakpoint-down(sm) {
+  margin-bottom: 12px;
+}
+}
+.img-cover.img-top{
+  height:128px ;
+}
+
