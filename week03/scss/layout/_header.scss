@@ -1,14 +1,15 @@
 /*header*/
 .header {
   background-color: $primary;
-  .container{
+  .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @include desktop(){
-      max-width: 1714px;
-      padding-right: 15px;
-      padding-left: 15px;
+    max-width: 1714px;
+    padding-right: 15px;
+    padding-left: 15px;
+    @include pad(){
+      max-width: 922px;
     }
     @include mobile() {
       flex-direction: column;
@@ -20,11 +21,19 @@
 }
 .logo {
   a {
+    background-image: url(../images/logo.png);
+    width: 80px;
+    height: 49px;
     display: block;
-    padding: 30px 0;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 30px 0;
     @include mobile() {
+      background-size: 48px 30px;
       width: 48px;
-      padding: 10px 0;
+      height: 30px;
+      margin: 10px 0;
     }
   }
 }
@@ -59,7 +68,7 @@
     }
   }
 }
-@include desktop() {
+
   .hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
@@ -91,5 +100,5 @@
     left: 0;
     right: 0;
   }
-}
+
 /*header end*/

@@ -1,8 +1,4 @@
-@mixin desktop {
-  @media (min-width: 992px) {
-    @content;
-  }
-}
+
 @mixin pad {
   @media (min-width: 576px)and (max-width: 991.98px){
     @content;

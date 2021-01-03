@@ -48,6 +48,9 @@ img{display: block;}
 a, a:hover, a:focus {
     text-decoration: none;
   }
+  a:hover, a:focus {
+    opacity: .7;
+  }
 /* reset css */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
 html, body {
@@ -88,6 +91,9 @@ h2{
     color:#fff;
     margin-top: 356px;
     font-weight: bold;
+}
+.header-content a {
+    display: block;
 }
 .service{line-height:36px;margin-bottom: 48px;}
 .about{
